@@ -70,6 +70,7 @@ print(opt)
 def train(epoch):
     iteration, avg_g_loss, avg_d_loss, avg_l1_loss, avg_gan_loss = 0, 0, 0, 0, 0
     last_l1_loss, last_gan_loss, cur_l1_loss, cur_gan_loss = 0, 0, 0, 0
+    print("test")
     model.train()
     t0 = time.time()
     t_io1 = time.time()
